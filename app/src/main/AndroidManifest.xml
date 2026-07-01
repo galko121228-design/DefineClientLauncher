@@ -1,0 +1,16 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.defineclient.launcher">
+
+    <application
+        android:label="DefineClient"
+        android:theme="@style/Theme.DefineClient">
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+    </application>
+</manifest>
